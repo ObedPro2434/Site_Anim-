@@ -1,3 +1,24 @@
+.tête{
+    background: linear-gradient(60deg,#8360c3,#3ebf91);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.tête a{
+    margin-left: 40px;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;
+    font-style: normal;
+}
 h1{
     text-align: center;
     margin-top: 30px;
@@ -42,4 +63,9 @@ h1{
 }
 .box:nth-child(1):hover{
     flex-basis: 50%;
+}
+
+/* Footer */
+footer {
+margin-top: 50px;
 }
